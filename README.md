@@ -27,24 +27,25 @@ Before you begin, ensure you have the following software installed:
 <br />
 
 ## Environment Variables
-  This project requires certain environment variables to be set up in order to run properly. You can create a .env file in the root of the project and add the following variables:
-  
-  ```.env
-  
-# Example .env file
+This project requires certain environment variables to be set up in order to function properly. You can create a `.env` file in the root of the project and add the following variables:
 
-# Database connection string
-DATABASE_URL=postgres://user:password@localhost:5432/mydatabase
+```env
+# Example .env file
 
 NEXT_PUBLIC_MASTER=1
 NEXT_PUBLIC_BACKEND_KASSANDRA=https://backend.kassandra.finance/
-
 NEXT_PUBLIC_NODE_ENV=public
-IRON_SESSION_PASSWORD=
 
-NEXT_PUBLIC_WALLETCONNECT=
-NEXT_PUBLIC_COINGECKO=
-  ```
+# You must provide one of the following CoinGecko API keys:
+COINGECKO_API_KEY= # Free CoinGecko API key with limited access. You can obtain it by creating a free account. Learn more at https://docs.coingecko.com/v3.0.1/reference/introduction
+COINGECKO_PRO_API_KEY= # CoinGecko PRO API key. Learn more at https://docs.coingecko.com/reference/introduction
+
+# The variables below are optional.
+DATABASE_URL= # Optional: Used to connect to the database (only used for user profiles).
+IRON_SESSION_PASSWORD= # Optional: Used to encrypt sessions (only used for user profiles).
+NEXT_PUBLIC_WALLETCONNECT= # Optional: Project ID for WalletConnect integration. Learn more at https://cloud.walletconnect.com
+NEXT_PUBLIC_MORALIS_KEY= # Optional: Used to fetch the user's NFT list in their profile. Learn more at https://docs.moralis.io/web3-data-api/aptos/reference/authentication
+```
 
 ## Installation  
 
@@ -53,7 +54,7 @@ Follow the steps below to set up the Next.js application with Docker:
 1. **Clone the repository:**  
 
    ```bash  
-   git clone https://github.com/KassandraFinance/kassandra-application.git
+   $ git clone https://github.com/KassandraFinance/kassandra-application.git
    
    cd kassandra-application
 
