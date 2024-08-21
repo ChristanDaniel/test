@@ -31,19 +31,19 @@ Before you begin, ensure you have the following software installed:
   
   ```.env
   
-    # Example .env file
+# Example .env file
 
-    # Database connection string
-    DATABASE_URL=postgres://user:password@localhost:5432/mydatabase
+# Database connection string
+DATABASE_URL=postgres://user:password@localhost:5432/mydatabase
 
-    NEXT_PUBLIC_MASTER=1
-    NEXT_PUBLIC_BACKEND_KASSANDRA=https://backend.kassandra.finance/
+NEXT_PUBLIC_MASTER=1
+NEXT_PUBLIC_BACKEND_KASSANDRA=https://backend.kassandra.finance/
 
-    NEXT_PUBLIC_NODE_ENV=public
-    IRON_SESSION_PASSWORD=
+NEXT_PUBLIC_NODE_ENV=public
+IRON_SESSION_PASSWORD=
 
-    NEXT_PUBLIC_WALLETCONNECT=
-    NEXT_PUBLIC_COINGECKO=
+NEXT_PUBLIC_WALLETCONNECT=
+NEXT_PUBLIC_COINGECKO=
   ```
 
 ## Installation  
