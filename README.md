@@ -6,7 +6,7 @@ Kassandra is an decentralized autonomous organization of decentralized finance t
 
 <br />
 
-## 🚀 Technology
+## Technology
 
 This project was developed with the following technologies:
 - [React](https://reactjs.org) / [Next.js](https://nextjs.org/)
