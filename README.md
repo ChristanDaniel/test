@@ -53,14 +53,14 @@ Follow the steps below to set up the Next.js application with Docker:
 
 **Clone the repository:**  
 
-   ```bash  
-   $ git clone https://github.com/KassandraFinance/kassandra-application.git
-   
-   cd kassandra-application
+ ```bash  
+ $ git clone https://github.com/KassandraFinance/kassandra-application.git
+ 
+ cd kassandra-application
 
-   # Installing the dependencies
-   $ yarn
-    
-   # Running application
-   $ yarn dev
+ # Installing the dependencies
+ $ yarn
+  
+ # Running application
+ $ yarn dev
 
