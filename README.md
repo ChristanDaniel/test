@@ -51,7 +51,7 @@ NEXT_PUBLIC_MORALIS_KEY= # Optional: Used to fetch the user's NFT list in their 
 
 Follow the steps below to set up the Next.js application with Docker:  
 
-1. **Clone the repository:**  
+**Clone the repository:**  
 
    ```bash  
    $ git clone https://github.com/KassandraFinance/kassandra-application.git
