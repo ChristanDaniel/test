@@ -61,7 +61,7 @@ NEXT_PUBLIC_MORALIS_KEY=
 
 ## Installation  
 
-Follow the steps below to set up the Next.js application with Docker:  
+Follow the steps below to set up the Next.js application:  
 
 **Clone the repository:**  
 
@@ -79,7 +79,7 @@ Follow the steps below to set up the Next.js application with Docker:
 
 ## Contributing
 
-We welcome contributions! Please check our [CONTRIBUTING.md](./CONTRIBUTING.md) file for guidelines on how to report issues, submit pull requests, and write commit messages following our standards.
+We welcome contributions! Please check our [contributing](./CONTRIBUTING.md) file for guidelines on how to report issues, submit pull requests.
 
 
 ## License
