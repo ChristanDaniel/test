@@ -67,16 +67,16 @@ Follow the steps below to set up the Next.js application:
 
 **Clone the repository:**  
 
- ```bash  
- $ git clone https://github.com/KassandraFinance/kassandra-application.git
+ ```sh
+ git clone https://github.com/KassandraFinance/kassandra-application.git
  
  cd kassandra-application
 
  # Installing the dependencies
- $ yarn
+ yarn
   
  # Running application
- $ yarn dev
+ yarn dev
 ```
 
 <br />
