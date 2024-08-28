@@ -59,6 +59,8 @@ NEXT_PUBLIC_MORALIS_KEY=
 - `NEXT_PUBLIC_WALLETCONNECT` (Optional): Project ID for WalletConnect integration. Learn more at [WalletConnect Cloud](https://cloud.walletconnect.com).
 - `NEXT_PUBLIC_MORALIS_KEY` (Optional): Key used to fetch the user's NFT list in their profile. Learn more at [Moralis API Documentation](https://docs.moralis.io/web3-data-api/aptos/reference/authentication).
 
+<br />
+
 ## Installation  
 
 Follow the steps below to set up the Next.js application:  
@@ -77,14 +79,18 @@ Follow the steps below to set up the Next.js application:
  $ yarn dev
 ```
 
+<br />
+
 ## Contributing
 
 We welcome contributions! Please check our [contributing](./CONTRIBUTING.md) file for guidelines on how to report issues, submit pull requests.
 
+<br />
 
 ## License
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
+<br />
 
 ## Discussion
 
