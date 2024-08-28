@@ -22,7 +22,7 @@ This project was developed with the following technologies:
 Before you begin, ensure you have the following software installed:  
 
 - [Node.js](https://nodejs.org/en/docs/) >=18.x.x <=20.x.x 
-- [Docker](https://docs.docker.com/)
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/)
 
 <br />
 
@@ -36,16 +36,28 @@ NEXT_PUBLIC_MASTER=1
 NEXT_PUBLIC_BACKEND_KASSANDRA=https://backend.kassandra.finance/
 NEXT_PUBLIC_NODE_ENV=public
 
-# You must provide one of the following CoinGecko API keys:
-COINGECKO_API_KEY= # Free CoinGecko API key with limited access. You can obtain it by creating a free account. Learn more at https://docs.coingecko.com/v3.0.1/reference/introduction
-COINGECKO_PRO_API_KEY= # CoinGecko PRO API key. Learn more at https://docs.coingecko.com/reference/introduction
+# CoinGecko API keys - You only need to use one of these keys. 
+# Be aware that the free key (COINGECKO_API_KEY) has usage limits.
+COINGECKO_API_KEY=
+COINGECKO_PRO_API_KEY=
 
-# The variables below are optional.
-DATABASE_URL= # Optional: Used to connect to the database (only used for user profiles).
-IRON_SESSION_PASSWORD= # Optional: Used to encrypt sessions (only used for user profiles).
-NEXT_PUBLIC_WALLETCONNECT= # Optional: Project ID for WalletConnect integration. Learn more at https://cloud.walletconnect.com
-NEXT_PUBLIC_MORALIS_KEY= # Optional: Used to fetch the user's NFT list in their profile. Learn more at https://docs.moralis.io/web3-data-api/aptos/reference/authentication
+#Optional
+DATABASE_URL=
+IRON_SESSION_PASSWORD=
+NEXT_PUBLIC_WALLETCONNECT=
+NEXT_PUBLIC_MORALIS_KEY=
 ```
+
+ ### Environment Variables Description
+- `NEXT_PUBLIC_MASTER`: Sets the master mode for the application. A value of 1 enables the master mode.
+- `NEXT_PUBLIC_BACKEND_KASSANDRA`: URL of the backend used by the application. Example: https://backend.kassandra.finance/.
+- `NEXT_PUBLIC_NODE_ENV`: Sets the execution environment. Example: public.
+- `COINGECKO_API_KEY`: Free CoinGecko API key with limited access. You can obtain it by creating a free account. Learn more at [CoinGecko API Documentation](https://docs.coingecko.com/v3.0.1/reference/introduction).
+- `COINGECKO_PRO_API_KEY`: CoinGecko PRO API key. Learn more at [CoinGecko PRO Documentation](https://docs.coingecko.com/reference/introduction).
+- `DATABASE_URL` (Optional): Connection URL to the database. Used only for user profiles.
+- `IRON_SESSION_PASSWORD` (Optional): Password used to encrypt sessions. Used only for user profiles.
+- `NEXT_PUBLIC_WALLETCONNECT` (Optional): Project ID for WalletConnect integration. Learn more at [WalletConnect Cloud](https://cloud.walletconnect.com).
+- `NEXT_PUBLIC_MORALIS_KEY` (Optional): Key used to fetch the user's NFT list in their profile. Learn more at [Moralis API Documentation](https://docs.moralis.io/web3-data-api/aptos/reference/authentication).
 
 ## Installation  
 
@@ -63,4 +75,19 @@ Follow the steps below to set up the Next.js application with Docker:
   
  # Running application
  $ yarn dev
+```
 
+## Contributing
+
+We welcome contributions! Please check our [CONTRIBUTING.md](./CONTRIBUTING.md) file for guidelines on how to report issues, submit pull requests, and write commit messages following our standards.
+
+
+## License
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
+
+
+## Discussion
+
+For any concerns with the protocol, open an issue or visit us on [Discord](https://discord.com/invite/8qHCfxwFCc) to discuss.
+
+For security concerns, please email [foundation@kassandra.finance](mailto:foundation@kassandra.finance).
