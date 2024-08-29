@@ -49,7 +49,6 @@ NEXT_PUBLIC_MORALIS_KEY=
 ```
 
  ### Environment Variables Description
-- `NEXT_PUBLIC_MASTER`: Sets the master mode for the application. A value of 1 enables the master mode.
 - `NEXT_PUBLIC_BACKEND_KASSANDRA`: URL of the backend used by the application. Example: https://backend.kassandra.finance/.
 - `NEXT_PUBLIC_NODE_ENV`: Sets the execution environment. Example: public.
 - `COINGECKO_API_KEY`: Free CoinGecko API key with limited access. You can obtain it by creating a free account. Learn more at [CoinGecko API Documentation](https://docs.coingecko.com/v3.0.1/reference/introduction).
