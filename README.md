@@ -2,7 +2,7 @@
   <img width='450px'src="https://www.kassandra.finance/_next/static/media/kassandra-header.613d13f9.svg" align="center"/>
 </h1>
 
-Kassandra is an decentralized autonomous organization of decentralized finance that governs a protocol that allows the creation and management of tokenized crypto portfolios, bringing a new class of products to managers and investors.
+Kassandra is a decentralized autonomous organization of decentralized finance that governs a protocol that allows the creation and management of tokenized crypto portfolios, bringing a new class of products to managers and investors.
 
 <br />
 
